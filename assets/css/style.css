@@ -20,3 +20,52 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+h2,
+button {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  /* } aggiungi icone */
+}
+
+ul {
+  color: #c8e7f0;
+}
+
+/* HEADER */
+
+header {
+  background-color: black;
+  padding: 2rem;
+}
+
+header img {
+  width: 160px;
+}
+
+/* MAIN - SECTION 1 */
+
+.s1 {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding-block: 2rem;
+  padding
+}
+
+h1{}
