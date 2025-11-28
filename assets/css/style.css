@@ -60,19 +60,38 @@ header img {
   width: 160px;
 }
 
+/* MAIN */
+.s1,
+.s2 {
+  padding-inline: 2.5rem;
+}
+
+.s3,
+.s4 {
+  padding-inline: 2rem;
+}
+
+.s1,
+.s3 {
+  padding-top: 4rem;
+  padding-bottom: 2.5rem;
+}
+
+.paragraph h3 {
+  margin-bottom: 0.8rem;
+}
+
 /* MAIN - SECTION 1 */
 
 .s1 {
   background-image: url(../images/banner.jpg);
   background-size: cover;
-  padding-block: 2.5rem;
-  padding-inline: 2.5rem;
-}
+} /*  modifica immagine */
 
 h1 {
   font-size: 2.5rem;
   line-height: 1;
-  margin-block: 1rem;
+  margin-bottom: 1rem;
 }
 
 button {
@@ -82,4 +101,28 @@ button {
   border: none;
   border-radius: 5px;
   margin-top: 2rem;
+}
+
+/* MAIN - SECTION 2 */
+
+.s2 {
+  padding-block: 4rem;
+}
+
+/* MAIN - SECTION 3 */
+
+/* MAIN - SECTION 4 */
+.card {
+  border: 1px solid #dee1e3;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  padding-inline: 1rem;
 }
