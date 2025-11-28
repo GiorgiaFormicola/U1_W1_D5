@@ -34,6 +34,7 @@ h3 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  line-height: 1.5;
 }
 
 h2,
@@ -64,8 +65,21 @@ header img {
 .s1 {
   background-image: url(../images/banner.jpg);
   background-size: cover;
-  padding-block: 2rem;
-  padding
+  padding-block: 2.5rem;
+  padding-inline: 2.5rem;
 }
 
-h1{}
+h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-block: 1rem;
+}
+
+button {
+  background-color: #f04c2f;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
