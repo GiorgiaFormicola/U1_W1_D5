@@ -74,14 +74,15 @@ header img {
 }
 
 .s1,
+.s2,
 .s3 {
   padding-top: 4rem;
   padding-bottom: 2.5rem;
 }
 
-.s2,
 .s4 {
-  padding-block: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
 .paragraph h3 {
@@ -92,7 +93,8 @@ header img {
 .s1 {
   background-image: url(../images/banner.jpg);
   background-size: cover;
-} /*  modifica immagine */
+  background-position: 50%;
+}
 
 h1 {
   font-size: 2.5rem;
@@ -107,9 +109,18 @@ button {
   border: none;
   border-radius: 5px;
   margin-top: 2rem;
+  font-size: 1rem;
 }
 
 /* MAIN - SECTION 2 */
+.s2 div {
+  margin-bottom: 2rem;
+}
+
+.s2 img {
+  width: 80%;
+  border-radius: 50%;
+}
 
 /* MAIN - SECTION 3 */
 .s3 {
@@ -139,8 +150,9 @@ button {
 }
 
 .card:last-child {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
+
 .card img {
   width: 100%;
   margin-bottom: 1rem;
