@@ -38,7 +38,8 @@ h3 {
 }
 
 h2,
-button {
+button,
+i {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -47,10 +48,6 @@ button {
 
 h2 {
   font-size: 2.2rem;
-}
-
-ul {
-  color: #c8e7f0;
 }
 
 /* HEADER */
@@ -66,9 +63,11 @@ header img {
 /* MAIN */
 .s1,
 .s2 {
-  padding-inline: 2.5rem;
+  font-size: 1.3rem;
 }
 
+.s1,
+.s2,
 .s3,
 .s4 {
   padding-inline: 2rem;
@@ -139,6 +138,9 @@ button {
   padding-bottom: 2.5rem;
 }
 
+.card:last-child {
+  margin-bottom: 1rem;
+}
 .card img {
   width: 100%;
   margin-bottom: 1rem;
@@ -146,4 +148,36 @@ button {
 
 .card p {
   padding-inline: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+  padding-block: 3rem;
+}
+
+.footer,
+.footer a {
+  color: #c8e7f0;
+  font-size: 1.3rem;
+}
+
+.footer p,
+.footer p a {
+  font-size: 1.1rem;
+}
+
+.footer ul,
+.footer p {
+  padding-block: 2rem;
+}
+
+.footer ul {
+  margin-top: -1rem;
+}
+
+.footer p {
+  display: inline-block;
+  border-top: 1px solid;
 }
